@@ -12,7 +12,7 @@ var LinguaFranca = (function (oldLinguaFrance) {
 
 	}; 
 
-		oldLinguaFranca.translateToItalian : function (phrase){ 
+		oldLinguaFranca.translateToItalian = function (phrase) { 
 
 			return italianWords[phrase]; 
 		};
