@@ -12,7 +12,7 @@ var LinguaFranca = (function(oldLinguaFranca){
 	};
 
 	oldLinguaFranca.translateToGerman = function (word) {
-		return words[word];
+		return germTrans[word];
 	};
 
 	return LinguaFranca
