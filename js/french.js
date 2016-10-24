@@ -1,4 +1,4 @@
-// Say hell to my little friend
+// MAIN OBJECT. AUGMENT OFF OF THIS.
 
 var LinguaFranca = (function() {
 
