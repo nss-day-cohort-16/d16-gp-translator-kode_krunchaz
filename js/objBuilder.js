@@ -8,5 +8,3 @@ var LinguaFranca = (function() {
 		}
 	}
 })();
-
-console.log("LinguaFranca:", LinguaFranca);
