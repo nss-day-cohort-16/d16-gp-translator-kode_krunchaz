@@ -1,7 +1,7 @@
 var LinguaFranca = (function(oldLinguaFranca){
 
 var spanishTrans = { 
-	"My": "Mi", 
+	"my": "Mi", 
 	"name" : "nombre", 
 	"is" : "es", 
 	"Rod": "Rod", 
