@@ -6,15 +6,8 @@ var language = document.getElementById("select");
 document.getElementById("submit").addEventListener("click", translate);
 
 function translate () {
-	// if (language.value === Italian) {
+
 		var functionToCall = "translateTo" + language.value;
-		// console.log(LinguaFranca);
-		// console.log(functionToCall);
-
-		var translated = LinguaFranca[functionToCall](input.value);
-		output.innerHTML = translated;
+		
+		output.innerHTML = LinguaFranca.translateTo(functionToCall, input.value);
 	}
-
-
-
-// console.log(output);
