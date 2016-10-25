@@ -13,7 +13,7 @@ var LinguaFranca = (function(oldLinguaFranca){
 	"party": "Party"
 	}
 
-	return oldLinguaFranca.translateToGerman = function(phrase) {
+	oldLinguaFranca.translateToGerman = function(phrase) {
 			var phraseToTranslate = phrase.split(" ");
 			var translatedPhrase = "";
 			for (var i = 0;i < phraseToTranslate.length; i++){
@@ -22,7 +22,7 @@ var LinguaFranca = (function(oldLinguaFranca){
 			return translatedPhrase;
 			// console.log(translatedPhrase);
 		};
-		return(oldLinguaFranca);
+		return oldLinguaFranca;
 		
 	})(LinguaFranca);
 
