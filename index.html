@@ -5,20 +5,54 @@
 	<link href="styles/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<h1>Kode Krunchaz's Translator</h1>
-	<textarea id="input"></textarea>
-	<label>Select A Language: </label>
-	<select>
-		<option>Italian</option>
-		<option>Spanish</option>
-		<option>French</option>
-		<option>German</option>
-	</select>
-	<button id="btn">Translate </button>
-
-	<div id="output"></div>
+<div id="main-wrapper">
+	<div class="form-style-10">
+		<div id="secondWrapper">
+<h1>Kode Krunchaz's Translator</h1>
+<form>
+    <div class="section">Please input phrase below</div>
+    <div class="inner-wrap">
+        <label ><input type="text" name="field1" placeholder="Phrase to be translated"/></label>
+        <label id="output"> <textarea placeholder="Translated Phrase" name="field2"></textarea></label>
+    </div>
+    <div class="section">Select Language To Be Translated Into</div>
+        <div class="inner-wrap">
+        <div id="select">
+		<select>
+			<option>Italian</option>
+			<option>Spanish</option>
+			<option>French</option>
+			<option>German</option>
+		</select>
+	</div>
+    </div>
+    <div class="button-section">
+     <input type="submit" name="Sign Up" />
+    </div>
+    </div>
+</form>
+</div>
+</div>
 <script type="text/javascript" src="js/french.js"></script>
 <script type="text/javascript" src="js/german.js"></script>
 <script type="text/javascript" src="js/spanish.js"></script>
+<script type="text/javascript" src="js/italian.js"></script>
 </body>
 </html>
+
+<!-- 	<div id="wrapper">
+	<textarea id="input" placeholder="Input Phrase Here"></textarea>
+	<div id="select">
+		<label>Select A Language: </label>
+		<select>
+			<option>Italian</option>
+			<option>Spanish</option>
+			<option>French</option>
+			<option>German</option>
+		</select>
+	</div>
+	
+	<button class="button">Translate </button>
+
+	<div id="output"></div>
+	</div> -->
