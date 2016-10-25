@@ -10,7 +10,7 @@ var spanishTrans = {
 	"like": "gusta", 
 	"to": "to",
 	"party": "feista",
-	"Say": "decir",
+	"say": "decir",
 	"hello": "hola",
 	"to": "a",
 	"little": "picato",
@@ -21,10 +21,10 @@ var spanishTrans = {
 	"box": "carton",
 	"of": "y",
 	"chocolates": "chocolate",
-	"Sounds": "sonidos",
+	"sounds": "sonidos",
 	"case": "caso ",
 	"the": "y ",
-	"Mondays": "lunes "
+	"mondays": "lunes "
 
 };
 		oldLinguaFranca.translateToSpanish = function(phrase) {

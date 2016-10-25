@@ -12,21 +12,21 @@ var LinguaFranca = (function(oldLinguaFranca){
 	"like": "mache ",
 	"to": "gerne ",
 	"party": "Party",
-	"Say": "sag ",
+	"say": "sag ",
 	"hello": "hallo ",
 	"to": "zu ",
 	"little": "kleinem ",
 	"friend": "Freund ",
-	"Life": "leben ",
+	"life": "leben ",
 	"like": "wie ",
 	"a": "ein ",
 	"box": "Karton ",
 	"of": "von ",
 	"chocolates": "Schokoladen ",
-	"Sounds": "Hoert sich an ",
+	"sounds": "Hoert sich an ",
 	"case": "Fall ",
 	"the": "den ",
-	"Mondays": "Montagen "
+	"mondays": "Montagen "
 	}
 
 	oldLinguaFranca.translateToGerman = function(phrase) {

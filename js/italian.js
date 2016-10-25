@@ -15,7 +15,7 @@ var LinguaFranca = (function (oldLinguaFranca) {
             "sounds": "souna",            
             "a": "a",
             "case": "caso",
-            "of ": "de",
+            "of": "de",
             "the" : "la",
             "mondays" : "lunedi", 
             "life": "vivo",
