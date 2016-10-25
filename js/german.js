@@ -2,6 +2,7 @@
 var LinguaFranca = (function(oldLinguaFranca){
 	
 	var germanWords = {
+	"My": "mein",
 	"my": "mein ",
 	"name": "Name ",
 	"is": "ist ",
