@@ -15,7 +15,7 @@ var spanishTrans = {
 	"to": "a",
 	"little": "picato",
 	"friend": "hombre",
-	"Life": "vida",
+	"life": "vida",
 	"like": "idéntico",
 	"a": "la",
 	"box": "carton",
