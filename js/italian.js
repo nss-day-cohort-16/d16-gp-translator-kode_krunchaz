@@ -3,13 +3,15 @@ var LinguaFranca = (function (oldLinguaFranca) {
     
     var italianWords = {
             
-            "my" : "mi",
+            "My" : "Mi",
             "name" : "chiamo",
             "is" : "e", 
             "Rod" : "Rod",
-            "and" : "e",
-            "I" : "mi",     
-            "like to party": "piace festaggiare" 
+            "and" : "con",
+            "I" : "io",     
+            "like": "piace",
+            "to" : "vai",
+            "party" : "festaggiare" 
 
     }; 
 
@@ -18,11 +20,7 @@ var LinguaFranca = (function (oldLinguaFranca) {
             var arrPhrase = phrase.split(" ");
             var strPhrase = "";
 
-            //console.log("phrase:", phrase);
-            //console.log("arrPhrase", arrPhrase.length);
-
             for (var i=0;i < arrPhrase.length; i++){
-                //console.log("i", i);
                 if (i == 0) {
                     strPhrase = italianWords[arrPhrase[i]];
             } else {
@@ -30,7 +28,6 @@ var LinguaFranca = (function (oldLinguaFranca) {
 
             }
 
-            //console.log("strPhrase", strPhrase);
             }
         
         return strPhrase;  
@@ -38,8 +35,9 @@ var LinguaFranca = (function (oldLinguaFranca) {
 
 };
 
-        return LinguaFranca
+        return oldLinguaFranca; 
 
 }) (LinguaFranca);
 
-//console.log(LinguaFranca); 
+
+ 
