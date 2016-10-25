@@ -7,11 +7,7 @@ var frenchTrans = { "My": "Ma", "name" : "prénom", "is" : "est", "Rod": "Rod", 
 			var arrPhrase = phrase.split(" ");
 			var strPhrase = "";
 
-			console.log("phrase:", phrase);
-			console.log("arrPhrase", arrPhrase.length);
-
 			for (var i=0;i < arrPhrase.length; i++){
-				console.log("i", i);
 				if (i == 0) {
 					strPhrase = frenchTrans[arrPhrase[i]];
 			} else {
@@ -19,9 +15,9 @@ var frenchTrans = { "My": "Ma", "name" : "prénom", "is" : "est", "Rod": "Rod", 
 
 			}
 
-			console.log("strPhrase", strPhrase);
 			}
 		
+			strPhrase += ".";
 		return strPhrase;
 		}
 	}
