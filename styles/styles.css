@@ -171,4 +171,8 @@ h1 {
 h1 {
 	color:#353535;
 }
-</style>
+
+#voice {
+    float:right;
+    margin-left:90%;
+}
