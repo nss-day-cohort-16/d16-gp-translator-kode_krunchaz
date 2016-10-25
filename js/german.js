@@ -22,11 +22,9 @@ var LinguaFranca = (function(oldLinguaFranca){
 			return translatedPhrase;
 			// console.log(translatedPhrase);
 		};
-	})();
-
-translate("My name is Rod and I like to party");
-
-
+		return(oldLinguaFranca);
+		
+	})(LinguaFranca);
 
 
 
@@ -36,15 +34,18 @@ translate("My name is Rod and I like to party");
 
 
 
-function (word) {
-		var newPhrase = word.split("");
-		var phraseAsString ="";
-		for (var i = 0; i < newPhrase.length; i++){
-			console.log(i);
-		}
-		return germTrans[word];
-	};
 
-	return LinguaFranca
 
-})(LinguaFranca);
+
+// function (word) {
+// 		var newPhrase = word.split("");
+// 		var phraseAsString ="";
+// 		for (var i = 0; i < newPhrase.length; i++){
+// 			console.log(i);
+// 		}
+// 		return germTrans[word];
+// 	};
+
+// 	return LinguaFranca
+
+// })(LinguaFranca);
