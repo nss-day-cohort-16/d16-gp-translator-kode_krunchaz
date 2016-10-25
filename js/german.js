@@ -22,9 +22,10 @@ var LinguaFranca = (function(oldLinguaFranca){
 			return translatedPhrase;
 			// console.log(translatedPhrase);
 		};
-	})();
+		return(oldLinguaFranca);
+		
+	})(LinguaFranca);
 
-translate(LinguaFranca);
 
 
 
