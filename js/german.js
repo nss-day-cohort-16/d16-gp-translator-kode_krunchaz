@@ -2,7 +2,7 @@
 var LinguaFranca = (function(oldLinguaFranca){
 	
 	var germanWords = {
-	"My": "mein ",
+	"my": "mein ",
 	"name": "Name ",
 	"is": "ist ",
 	"Rod": "Rod ",
@@ -10,7 +10,22 @@ var LinguaFranca = (function(oldLinguaFranca){
 	"I": "ich ",
 	"like": "mache ",
 	"to": "gerne ",
-	"party": "Party"
+	"party": "Party",
+	"Say": "sag ",
+	"hello": "hallo ",
+	"to": "zu ",
+	"little": "kleinem ",
+	"friend": "Freund ",
+	"Life": "leben ",
+	"like": "wie ",
+	"a": "ein ",
+	"box": "Karton ",
+	"of": "von ",
+	"chocolates": "Schokoladen ",
+	"Sounds": "Hoert sich an ",
+	"case": "Fall ",
+	"the": "den ",
+	"Mondays": "Montagen "
 	}
 
 	oldLinguaFranca.translateToGerman = function(phrase) {
