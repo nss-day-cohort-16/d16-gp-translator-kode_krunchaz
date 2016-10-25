@@ -1,17 +1,47 @@
 
 var LinguaFranca = (function(oldLinguaFranca){
 	
-	var germTrans = {
-		"my": "mein",
-		"name": "Name",
-		"is": "ist",
-		"Rod": "Rod",
-		"and": "und",
-		"I": "ich",
-		"like to party": "mache gerne Party"
-	};
+	var germanWords = {
+	"My": "mein ",
+	"name": "Name ",
+	"is": "ist ",
+	"Rod": "Rod ",
+	"and": "und ",
+	"I": "ich ",
+	"like": "mache ",
+	"to": "gerne ",
+	"party": "Party"
+	}
 
-	oldLinguaFranca.translateToGerman = function (word) {
+	return oldLinguaFranca.translateToGerman = function(phrase) {
+			var phraseToTranslate = phrase.split(" ");
+			var translatedPhrase = "";
+			for (var i = 0;i < phraseToTranslate.length; i++){
+				translatedPhrase += germanWords[phraseToTranslate[i]];
+			}
+			return translatedPhrase;
+			// console.log(translatedPhrase);
+		};
+	})();
+
+translate("My name is Rod and I like to party");
+
+
+
+
+
+
+
+
+
+
+
+function (word) {
+		var newPhrase = word.split("");
+		var phraseAsString ="";
+		for (var i = 0; i < newPhrase.length; i++){
+			console.log(i);
+		}
 		return germTrans[word];
 	};
 
