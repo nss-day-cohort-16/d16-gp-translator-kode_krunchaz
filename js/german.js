@@ -35,7 +35,6 @@ var LinguaFranca = (function(oldLinguaFranca){
 				translatedPhrase += germanWords[phraseToTranslate[i]];
 			}
 			return translatedPhrase;
-			// console.log(translatedPhrase);
 		};
 		return oldLinguaFranca;
 		
