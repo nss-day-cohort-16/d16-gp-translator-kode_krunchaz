@@ -1,9 +1,8 @@
-var LinguaFranca = (function() {
+var LinguaFranca = (function(oldLinguaFranca) {
 
 var frenchTrans = { "My": "Ma", "name" : "prénom", "is" : "est", "Rod": "Rod", "and" : "et",  "I": "je", "like": "comme", "to": "à", "party": "fête"};
 
-	return { 
-		translateToFrench: function(phrase) {
+		oldLinguaFranca.translateToFrench = function(phrase) {
 			var arrPhrase = phrase.split(" ");
 			var strPhrase = "";
 
@@ -20,5 +19,6 @@ var frenchTrans = { "My": "Ma", "name" : "prénom", "is" : "est", "Rod": "Rod", 
 			strPhrase += ".";
 		return strPhrase;
 		}
-	}
-})();
+
+	return oldLinguaFranca;
+})(LinguaFranca); 	
