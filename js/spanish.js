@@ -1,6 +1,32 @@
 var LinguaFranca = (function(oldLinguaFranca){
 
-var spanishTrans = { "My": "Mi", "name" : "nombre", "is" : "es", "Rod": "Rod", "and" : "y",  "I": "yo", "like": "gusta", "to": "to", "party": "feista"};
+var spanishTrans = { 
+	"My": "Mi", 
+	"name" : "nombre", 
+	"is" : "es", 
+	"Rod": "Rod", 
+	"and" : "y",  
+	"I": "yo", 
+	"like": "gusta", 
+	"to": "to",
+	"party": "feista",
+	"Say": "decir",
+	"hello": "hola",
+	"to": "a",
+	"little": "picato",
+	"friend": "hombre",
+	"Life": "vida",
+	"like": "idéntico",
+	"a": "la",
+	"box": "carton",
+	"of": "y",
+	"chocolates": "chocolate",
+	"Sounds": "sonidos",
+	"case": "caso ",
+	"the": "y ",
+	"Mondays": "lunes "
+
+};
 		oldLinguaFranca.translateToSpanish = function(phrase) {
 
 			var arrPhrase = phrase.split(" ");

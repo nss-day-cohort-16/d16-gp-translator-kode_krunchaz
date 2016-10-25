@@ -9,13 +9,13 @@
 	<div class="form-style-10">
 		<div id="secondWrapper">
 <h1>Kode Krunchaz's Translator</h1>
-    <div class="section">Please input phrase below</div>
+    <div class="section"></div>
     <div class="inner-wrap">
         <label ><input id="input" type="text" name="field1" placeholder="Phrase to be translated"/></label>
         <label> <textarea placeholder="Translated Phrase" id="output"></textarea></label>
         <input onclick='responsiveVoice.speak(output.value);' type='button' value='🔊 Play' id="voice" />
     </div>
-    <div class="section">Select Language To Be Translated Into</div>
+    <div class="section"></div>
         <div class="inner-wrap">
         <div>
 		<select id="select">
@@ -24,13 +24,11 @@
 			<option>French</option>
 			<option>German</option>
 		</select>
+		 <div class="button-section" >
+    	 <button id="submit" type="button">Submit</button>
+    </div>
 	</div>
     </div>
-    <div class="button-section">
-     <button id="submit">Submit</button>
-    </div>
-
-
     </div>
 </div>
 </div>
